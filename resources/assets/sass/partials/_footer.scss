@@ -1,0 +1,85 @@
+@import '../variables';
+
+#footer {
+    width: 90%;
+
+    margin-top: 4rem;
+    padding-top: 3rem; //was 5rem
+
+    float: right;
+
+    color: #eee;
+    font-family: Arial;
+
+    background: $navbar-default-bg url(/images/arrow-footer.png) no-repeat;
+
+    border-top-left-radius: 136px;
+
+    .first{
+        margin-bottom: 15px;
+        text-decoration: underline;
+
+    }
+
+
+
+    p{
+        margin-bottom: 0rem;
+    }
+    a{
+        color: #eee;
+
+    }
+
+    .big-marg{
+
+        margin-right: 100px;
+
+        @media (max-width:769px){
+            margin-right: 2px;
+        }
+    }
+
+    .footer-item{
+        float: left;
+        text-align: left;
+        //padding: 20px;
+        display: block;
+        width: 13%;
+        min-width: 120px;
+        line-height: 1.2;
+        a{
+            padding-top: 3px;
+            padding-bottom: 3px;
+            font-size: 11px !important;
+        }
+        p{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 11px !important;
+        }
+
+    }
+
+    @media (max-width:769px){
+        width: 90%;
+
+        margin-top: 4rem;
+        padding: 2rem 15px 10px 15px;
+        margin-left: 30px;
+        float: right;
+        font-size: 8pt;
+        font-weight: 100;
+        color: #eee;
+        text-align: right;
+
+        background: $navbar-default-bg; //url(/images/arrow-footer.png) no-repeat;
+
+        border-top-left-radius: 45px;
+
+        .logo{
+            width: 100px;
+        }
+    }
+
+}

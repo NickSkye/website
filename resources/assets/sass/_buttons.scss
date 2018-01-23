@@ -1,0 +1,17 @@
+.btn-cta {
+    height: 100%;
+    border-radius: 0;
+    font-size: 1.2em;
+    padding: .5em 1.4em;
+}
+
+.btn-primary-outline {
+    border: 2px solid $brand-primary;
+    color: $brand-primary;
+    background-color: transparent;
+
+    &:hover {
+        background-color: $brand-primary;
+        color: #fff;
+    }
+}

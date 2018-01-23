@@ -1,0 +1,203 @@
+@import 'variables';
+
+.logo {
+    width: 153px;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-paddin-lr {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.link-cta {
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+    line-height: 1;
+    border-bottom: 3px solid $brand-primary;
+
+    background-color: transparent;
+
+    &:hover {
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+.nav-padding {
+    @media (min-width: 769px){
+        padding-left: 50px;
+    }
+
+}
+
+.max-height {
+    height: 100%;
+}
+
+.text-black {
+    color: #000;
+}
+
+.bg-dark {
+    color: #fff;
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+
+
+
+a:hover{
+    cursor: pointer;
+}
+
+
+.showmorebutton{
+    padding: 15px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.3);
+
+
+}
+
+.generic-butt{
+    padding: 15px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+    background: rgba(0, 0, 0, 0.3);
+
+
+}
+
+.green-under{
+    text-decoration: underline;
+    color: #9CCB3E !important;
+}
+
+.vertical-center-content > * {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+//CODE FOR HIGHLIGHT COLOURa
+::-moz-selection { /* Code for Firefox */
+    color: #9CCB3E;
+    background: white;
+}
+
+::selection {
+    color: #9CCB3E;
+    background: white;
+}
+
+.first-green{
+    z-index: 100;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.green-butt{
+    text-align: center;
+    width: 100%;
+    padding-top: 12px;
+    height: 50px;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: #3c763d;
+    margin-top: 10px;
+    max-width: 200px;
+
+}
+
+
+//VIDEO LIGHTBOX
+
+.lightbox {
+    /** Default lightbox to hidden */
+    display: none;
+
+    /** Position and style */
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+.lightbox:target {
+    /** Remove default browser outline */
+    outline: none;
+
+    /** Unhide lightbox **/
+    display: block;
+}
+
+/** videoModal **/
+#videoModal {
+    border-radius: 0;
+    width: 870px;
+    margin:auto;}
+#videoModal .modal-header {
+    background: #000;
+    border: 0;
+    color: #fff;
+    position: relative;
+    height:35px; }
+#videoModal .modal-header h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:5px;}
+#videoModal .modal-body {
+    height: 489px;
+    padding: 0;
+    max-height: none;
+    overflow: hidden; }
+#videoModal .modal-footer:empty {
+    display: none !important; }
+#videoModal .close {
+    background: #DB00B8;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    text-shadow: none;
+    top: 0;
+    width: 38px; }
+
+.video-butt{
+    background-color: transparent;
+    color: white;
+    font-family: Arial;
+}
+
+.video-underline:hover{
+    border-bottom: 3px solid #9CCB3E;
+
+}
+
+.consult-list{
+    line-height: 1.2;
+    li{
+
+        padding-bottom: 10px;
+    }
+}

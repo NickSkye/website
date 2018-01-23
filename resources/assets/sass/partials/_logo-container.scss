@@ -1,0 +1,173 @@
+.logo-container {
+    position: relative;
+
+    @media (min-width: 0) {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        //padding-left: 60px; // left nav preview width
+
+        .logo{
+            margin-left: 215px;
+            margin-top: -17px;
+            width: 100px;
+        }
+
+
+        .mail-link {
+            z-index: 1;
+
+            color: rgba(#4c4c4c, .6);
+
+            letter-spacing: 3px;
+
+            white-space: nowrap;
+
+            left: 225px;
+            font-size: 14px;
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            @media (min-width: 768px) {
+                position: absolute;
+                top: 65px;
+                left: 250px;
+                .logo {
+                    margin-top: 1rem;
+                    margin-left: 44px;
+                    width: 200px;
+                }
+            }
+
+            @media (min-width: 850px) {
+                left: 275px;
+            }
+
+            @media (min-width: 992px) {
+                left: auto;
+            }
+        }
+
+        .mail-link-sm {
+            z-index: 1;
+
+            color: rgba(#4c4c4c, .6);
+
+            letter-spacing: 1.5px;
+
+            white-space: nowrap;
+
+            left: 0px;
+            margin-top: -23px;
+            font-size: 1.1em;
+
+            @media (min-width:479px){
+                position: absolute;
+                top: 53px;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+
+            //@media (min-width: 768px) {
+            //    position: absolute;
+            //    top: 31px;
+            //    left: 250px;
+            //    .logo {
+            //        margin-top: 1rem;
+            //        margin-left: 44px;
+            //        width: 200px;
+            //    }
+            //}
+            //
+            //@media (min-width: 850px) {
+            //    left: 275px;
+            //}
+            //
+            //@media (min-width: 992px) {
+            //    left: auto;
+            //}
+        }
+
+        .mail-link-sm-home {
+            z-index: 1;
+
+            color: rgba(#4c4c4c, .6);
+
+            letter-spacing: 3px;
+
+            white-space: nowrap;
+
+            left: 0px;
+            margin-top: -23px;
+
+            @media (min-width:446px){
+                margin-top: -23px;
+            }
+
+            @media (min-width:476px){
+                margin-top: 45px;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+
+            //@media (min-width: 768px) {
+            //    position: absolute;
+            //    top: 31px;
+            //    left: 250px;
+            //    .logo {
+            //        margin-top: 1rem;
+            //        margin-left: 44px;
+            //        width: 200px;
+            //    }
+            //}
+            //
+            //@media (min-width: 850px) {
+            //    left: 275px;
+            //}
+            //
+            //@media (min-width: 992px) {
+            //    left: auto;
+            //}
+        }
+    }
+
+    @media (min-width: 480px) {
+        margin-top: 2rem;
+
+        padding-left: 0;
+        .logo{
+            margin-left: 135px;
+            margin-top: -30px;
+            width: 100px;
+        }
+    }
+
+    @media (min-width: 767px) {
+        margin-top: 2rem;
+
+        padding-left: 0;
+        .logo {
+            margin-top: 1rem;
+            //margin-left: 44px;
+            width: 200px;
+        }
+        .logo-seg {
+            margin-top: 1rem;
+            margin-left: 444px;
+            //width: 200px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    @media (min-width: 1200px) {
+        //
+    }
+}
